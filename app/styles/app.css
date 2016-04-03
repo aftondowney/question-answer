@@ -42,6 +42,10 @@ a:hover {
   background-color: #f0b75b;
   color: #213601;
 }
+.update-save {
+  background-color: #213601;
+  color: #f0b75b;
+}
 /*question-detail*/
 .panel-footer, .panel-heading {
   background-color: #ddd8c3;
@@ -54,4 +58,8 @@ a:hover {
   background-color: #f0b75b;
   color: #213601;
   font-size: 15px;
+}
+.answer-save {
+  background-color: #f0b75b;
+  color: #213601;
 }
