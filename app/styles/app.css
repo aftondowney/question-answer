@@ -1,3 +1,57 @@
+/*application*/
+body {
+  background-color: #8fa794;
+}
+h1 {
+  font-size: 50px;
+}
+small {
+  font-size: 15px;
+}
 footer {
   text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+a {
+  color: #213601;
+}
+a:hover {
+  color: #f0b75b;
+}
+/*new-question*/
+.new-question {
+  background-color: #213601;
+  color: #f0b75b;
+  font-size: 15px;
+}
+.question-save {
+  background-color: #f0b75b;
+  color: #213601;
+}
+/*index*/
+.title {
+  font-size: 40px;
+}
+/*question-tile*/
+.well {
+  background-color: #ddd8c3;
+}
+/*update-question*/
+.update {
+  background-color: #f0b75b;
+  color: #213601;
+}
+/*question-detail*/
+.panel-footer, .panel-heading {
+  background-color: #ddd8c3;
+}
+.panel-default > .panel-heading {
+  background-color: #ddd8c3;
+}
+/*new-answer*/
+.new-answer {
+  background-color: #f0b75b;
+  color: #213601;
+  font-size: 15px;
 }

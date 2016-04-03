@@ -8,10 +8,11 @@ actions: {
   },
   update(question) {
     var params = {
-      question: this.get('question'),
+      content: this.get('content'),
       author: this.get('author'),
       notes: this.get('notes'),
     };
+    console.log(question);
     this.set('updateQuestionForm', false);
     this.sendAction('update', question, params);
   }

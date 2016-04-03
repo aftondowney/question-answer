@@ -1,5 +1,5 @@
-<li><div class="well well-sm">
-  <p>{{answer.answer}}</p>
+<div>
   <p>Answer by: {{answer.author}}</p><br>
-  <button class="btn btn-xs detail" {{action 'delete' answer}}>Delete</button>
-</div></li>
+  <p>{{answer.answer}}</p>
+  <button class="btn btn-xs detail btn-danger" {{action 'delete' answer}}>Delete</button>
+</div>

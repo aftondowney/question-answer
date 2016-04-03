@@ -3,23 +3,23 @@
     <div>
       <form>
         <div class="form-group">
-          <label for="question">Question</label>
-          {{input value=question id="question" placeholder=question.question}}
+          <label for="content">Question</label>
+          {{input value=content id="content" placeholder=question.content}}
         </div>
 
         <div class="form-group">
           <label for="author">Author</label>
-          {{textarea value=author id="author" placeholder=question.author}}
+          {{input value=author id="author" placeholder=question.author}}
         </div>
 
         <div class="form-group">
           <label for="notes">Notes</label>
-          {{input value=notes id="notes" placeholder=question.notes.name}}
+          {{textarea value=notes id="notes" placeholder=question.notes.name}}
         </div>
 
         <button class="btn btn-xs detail" {{action 'update' question}}>Save</button>
       </form>
     </div>
 {{else}}
-    <button class="btn btn-xs detail" {{action 'updateQuestionForm'}}>Update</button>
+    <button class="btn btn-xs update" {{action 'updateQuestionForm'}}>Update</button>
 {{/if}}

@@ -1,6 +1,7 @@
-<h1>Questions</h1>
-<p>
+<h1 class="title">Questions</h1>
+<div>
   {{#each model as |question|}}
-  {{question-tile question=question}}
+  {{question-tile question=question update="update"}}
   {{/each}}
-</p>
+</div>
+{{new-question saveQuestion="saveQuestion"}}
