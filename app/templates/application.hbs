@@ -1,3 +1,17 @@
-<h2 id="title">Welcome to Ember</h2>
+<div class="page-header">
+  <h1>Better than a Magic 8 Ball: <small>Ask a question and get an answer, and not just yes, no or maybe.</small></h1>
+</div>
 
-{{outlet}}
+<div class="container">
+  <div class="row">
+    <div class="col-sm-2">
+    </div>
+    {{outlet}}
+    <div class="col-sm-2">
+    </div>
+  </div>
+</div>
+<hr>
+<footer>
+  {{#link-to 'index'}}Home{{/link-to}}
+</footer>
