@@ -1,0 +1,20 @@
+<div class="panel panel-default">
+  <!-- Default panel contents -->
+  <div class="panel-heading">
+    <h2>{{question.question}}</h2>
+    <p>Written by {{question.author}}</p>
+  </div>
+
+  <div class="panel-body">
+    <p>{{question.notes}}</p>
+  </div>
+
+  <!-- List group -->
+  <div class="panel-footer">
+    <ul class="list-group">
+      {{#each question.answers as |answer|}}
+        <li class="list-group-item">{{answer-tile answer=answer question=model destroyAnswer="destroyAnswer"}}</li>
+      {{/each}}
+    </ul>
+  </div>
+</div>
