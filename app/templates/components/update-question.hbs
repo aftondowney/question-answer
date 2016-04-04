@@ -1,5 +1,5 @@
 {{#if updateQuestionForm}}
-  <h4>Update {{question.question}} by {{question.author}}</h4>
+  <h4>Update {{question.content}} by {{question.author}}</h4>
     <div>
       <form>
         <div class="form-group">
@@ -14,7 +14,7 @@
 
         <div class="form-group">
           <label for="notes">Notes</label>
-          {{textarea value=notes id="notes" placeholder=question.notes.name}}
+          {{textarea value=notes id="notes" placeholder=question.notes}}
         </div>
 
         <button class="btn btn-xs update-save" {{action 'update' question}}>Save</button>
