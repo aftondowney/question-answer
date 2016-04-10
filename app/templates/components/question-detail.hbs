@@ -11,7 +11,7 @@
   <div class="panel-footer">
     <div class="list-group">
       <h3>Answers:</h3>
-      {{#each question.answers as |answer|}}
+      {{#each sortedAnswers as |answer|}}
         <p class="list-group-item">{{answer-tile answer=answer question=model destroyAnswer="destroyAnswer"}}</p>
       {{/each}}
     </div>

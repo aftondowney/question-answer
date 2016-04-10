@@ -4,10 +4,6 @@ export default Ember.Route.extend({
   model() {
     return this.store.findAll('question');
   },
-
-  sortBy: ['content:asc'],
-  sortedQuestions: Ember.computed.sort('qeustion', 'sortBy'),
-
   actions: {
     update(question, params) {
       Object.keys(params).forEach(function(key) {

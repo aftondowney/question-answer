@@ -1,5 +1,5 @@
 {{#each favoritesList.questions as |question|}}
   <li>
-    {{#link-to 'question' question.id}}{{question.content}}{{/link-to}}
+    {{#link-to 'question' question.id}}<p class="list"><span class="glyphicon glyphicon-apple apple" aria-hidden="true"></span>{{    question.content}}</p>{{/link-to}}
   </li>
 {{/each}}

@@ -1,14 +1,21 @@
+input {
+  color: #040507;
+}
+span {
+  padding-right: 15px;
+}
 /*application*/
 body {
   background-color: #040507;
   color: white;
   font-family: 'Shadows Into Light', cursive;
 }
+.page-header {
+  margin-top: 0px;
+  padding-bottom: 50px;
+}
 h1 {
   font-size: 50px;
-}
-small {
-  font-size: 15px;
 }
 .navbar-default {
   background-color: #C0C0C0;
@@ -17,12 +24,13 @@ small {
     white,
     #C0C0C0
     );
+    margin-bottom: 10px;
 }
 a {
-  color: #213601;
+  color: #040507;
 }
 a:hover {
-  color: #f0b75b;
+  color: #DE151B;
 }
 #title {
   font-family: 'Mystery Quest', cursive;
@@ -34,6 +42,11 @@ a:hover {
 .favorites {
   margin-top: 12px;
   margin-right: 12px;
+  color: #DE151B;
+  padding-left: 15px;
+  width: 100px;
+  font-size: 15px;
+  border: 1px solid #DE151B;
 }
 
 /*new-question*/
@@ -98,11 +111,28 @@ a:hover {
 
 /*new-answer*/
 .new-answer {
-  background-color: #4A6DBF;
+  background-color: #6B7C20;
   color: #040507;;
   font-size: 15px;
 }
 .answer-save {
-  background-color: #4A6DBF;
+  background-color: #6B7C20;
   color: #040507;;
+}
+/*answer-tile*/
+answer-tile {
+  background-color: #f8f8f8;
+}
+
+/*display-list*/
+li {
+  margin-left: 30px;
+  list-style-type: none;
+}
+.list {
+  color: white;
+  font-size: 20px;
+}
+.apple {
+  color: #DE151B;
 }
