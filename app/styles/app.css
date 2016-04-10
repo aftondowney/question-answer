@@ -38,12 +38,12 @@ a:hover {
 
 /*new-question*/
 .new-question {
-  background-color: #213601;
+  background-color: #4A6DBF;
   color: #040507;
   font-size: 15px;
 }
 .question-save {
-  background-color: #f0b75b;
+  background-color: #4A6DBF;
   color: #040507;
 }
 
@@ -69,28 +69,40 @@ a:hover {
 /*update-question*/
 .update {
   background-color:  #FFFF8F;
-  color: #040507;;
+  color: #040507;
 }
 .update-save {
-  background-color: #213601;
-  color: #040507;;
+  background-color: #FFFF8F;
+  color: #040507;
 }
 
 /*question-detail*/
-.panel-footer, .panel-heading {
-  background-color: #ddd8c3;
+.panel-footer, .panel-body {
+  background-color: #C0C0C0;
+  background-image: radial-gradient(
+    at top,
+    white,
+    #C0C0C0
+    );
+  color: #040507;
 }
 .panel-default > .panel-heading {
-  background-color: #ddd8c3;
+  background-color: #C0C0C0;
+  background-image: radial-gradient(
+    at top,
+    white,
+    #C0C0C0
+    );
+    color: #040507;
 }
 
 /*new-answer*/
 .new-answer {
-  background-color: #f0b75b;
+  background-color: #4A6DBF;
   color: #040507;;
   font-size: 15px;
 }
 .answer-save {
-  background-color: #f0b75b;
+  background-color: #4A6DBF;
   color: #040507;;
 }

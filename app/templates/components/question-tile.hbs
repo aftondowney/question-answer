@@ -7,7 +7,9 @@
    asked by  {{question.author}}<br>
 
    <button class="btn btn-default btn-xs fav-btn" {{action 'addToList' question}}><span class="glyphicon glyphicon-star" aria-hidden="true"></span></button>
-   
+
+   Answers: {{question-popularity question}}
+
   {{update-question question=question update="update"}}
 
 </div>
