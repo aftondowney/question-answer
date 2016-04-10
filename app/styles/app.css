@@ -61,10 +61,14 @@ a:hover {
     );
   color: #040507;
 }
-
+.fav-btn {
+  background-color: #DE151B;
+  margin-bottom: 7px;
+  margin-top: 7px;
+}
 /*update-question*/
 .update {
-  background-color: #f0b75b;
+  background-color:  #FFFF8F;
   color: #040507;;
 }
 .update-save {

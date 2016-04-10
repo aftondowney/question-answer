@@ -1,5 +1,13 @@
 
 <div class="well well-sm">
-  {{#link-to 'question' question.id}}<h3>{{question.content}}</h3>{{/link-to}} asked by  {{question.author}}{{update-question question=question update="update"}}
-  <button {{action 'addToList' question}}>Favorite</button>
+  {{#link-to 'question' question.id}}
+    <h3>{{question.content}}</h3>
+  {{/link-to}}
+
+   asked by  {{question.author}}<br>
+
+   <button class="btn btn-default btn-xs fav-btn" {{action 'addToList' question}}><span class="glyphicon glyphicon-star" aria-hidden="true"></span></button>
+   
+  {{update-question question=question update="update"}}
+
 </div>
