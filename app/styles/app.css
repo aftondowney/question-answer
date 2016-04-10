@@ -1,6 +1,8 @@
 /*application*/
 body {
-  background-color: #8fa794;
+  background-color: #040507;
+  color: white;
+  font-family: 'Shadows Into Light', cursive;
 }
 h1 {
   font-size: 50px;
@@ -8,10 +10,13 @@ h1 {
 small {
   font-size: 15px;
 }
-footer {
-  text-align: center;
-  font-size: 20px;
-  font-weight: bold;
+.navbar-default {
+  background-color: #C0C0C0;
+  background-image: radial-gradient(
+    at left,
+    white,
+    #C0C0C0
+    );
 }
 a {
   color: #213601;
@@ -19,33 +24,54 @@ a {
 a:hover {
   color: #f0b75b;
 }
+#title {
+  font-family: 'Mystery Quest', cursive;
+  font-weight: 900;
+  font-size: 35px;
+  padding: 20px;
+  color: #040507;
+}
+.favorites {
+  margin-top: 12px;
+  margin-right: 12px;
+}
+
 /*new-question*/
 .new-question {
   background-color: #213601;
-  color: #f0b75b;
+  color: #040507;
   font-size: 15px;
 }
 .question-save {
   background-color: #f0b75b;
-  color: #213601;
+  color: #040507;
 }
+
 /*index*/
 .title {
   font-size: 40px;
 }
+
 /*question-tile*/
 .well {
-  background-color: #ddd8c3;
+  background-color: #C0C0C0;
+  background-image: radial-gradient(
+    white,
+    #C0C0C0
+    );
+  color: #040507;
 }
+
 /*update-question*/
 .update {
   background-color: #f0b75b;
-  color: #213601;
+  color: #040507;;
 }
 .update-save {
   background-color: #213601;
-  color: #f0b75b;
+  color: #040507;;
 }
+
 /*question-detail*/
 .panel-footer, .panel-heading {
   background-color: #ddd8c3;
@@ -53,13 +79,14 @@ a:hover {
 .panel-default > .panel-heading {
   background-color: #ddd8c3;
 }
+
 /*new-answer*/
 .new-answer {
   background-color: #f0b75b;
-  color: #213601;
+  color: #040507;;
   font-size: 15px;
 }
 .answer-save {
   background-color: #f0b75b;
-  color: #213601;
+  color: #040507;;
 }
