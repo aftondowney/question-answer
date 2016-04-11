@@ -1,6 +1,8 @@
 # Mirror, Mirror
 
-This app will allow a user to ask a question and/or answer a question posted by another user. The answers are displayed in alphabetical order. Users can mark questions as favorite, and view a list of all their favorite questions. The home page also displays how many answers each question has.
+This app will allow a user to ask a question and/or answer a question posted by another user. The answers are displayed in alphabetical order. Users can mark questions as favorite, and view a list of all their favorite questions. The home page also displays how many answers each question has. April 8, 2016
+
+####By Afton Downey
 
 ## Prerequisites
 
@@ -52,3 +54,7 @@ Make use of the many generators for code, try `ember help generate` for more det
 * Development Browser Extensions
   * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
   * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
+
+## License
+
+MIT License
