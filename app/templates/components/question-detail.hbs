@@ -10,7 +10,7 @@
   <!-- List group -->
   <div class="panel-footer">
     <div class="list-group">
-      <h3>Answers:</h3>
+      <h3>{{question-popularity question}} Answers:</h3>
       {{#each sortedAnswers as |answer|}}
         <p class="list-group-item">{{answer-tile answer=answer question=model destroyAnswer="destroyAnswer"}}</p>
       {{/each}}

@@ -8,7 +8,7 @@
 
    <button class="btn btn-default btn-xs fav-btn" {{action 'addToList' question}}><span class="glyphicon glyphicon-apple" aria-hidden="true"></span></button>
 
-   Answers: {{question-popularity question}}
+   <p class="answer-number">Answers: {{question-popularity question}}</p>
 
   {{update-question question=question update="update"}}
 

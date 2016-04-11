@@ -1,4 +1,4 @@
-input {
+input, textarea {
   color: #040507;
 }
 span {
@@ -11,11 +11,8 @@ body {
   font-family: 'Shadows Into Light', cursive;
 }
 .page-header {
-  margin-top: 0px;
+  margin-top: 80px;
   padding-bottom: 50px;
-}
-h1 {
-  font-size: 50px;
 }
 .navbar-default {
   background-color: #C0C0C0;
@@ -41,12 +38,13 @@ a:hover {
 }
 .favorites {
   margin-top: 12px;
-  margin-right: 12px;
+  margin-right: 30px;
   color: #DE151B;
   padding-left: 15px;
   width: 100px;
   font-size: 15px;
   border: 1px solid #DE151B;
+  background-color: white;
 }
 
 /*new-question*/
@@ -79,14 +77,22 @@ a:hover {
   margin-bottom: 7px;
   margin-top: 7px;
 }
+.answer-number {
+  font-size: 25px;
+  float: right;
+  padding-top: 20px;
+  margin-bottom: 5px;
+}
 /*update-question*/
 .update {
   background-color:  #FFFF8F;
   color: #040507;
+  font-size: 15px;
 }
 .update-save {
   background-color: #FFFF8F;
   color: #040507;
+  font-size: 15px;
 }
 
 /*question-detail*/
