@@ -1,7 +1,6 @@
-# Question-answer
+# Mirror, Mirror
 
-This README outlines the details of collaborating on this Ember application.
-This app will allow a user to ask a question and/or answer a question posted by another user.
+This app will allow a user to ask a question and/or answer a question posted by another user. The answers are displayed in alphabetical order. Users can mark questions as favorite, and view a list of all their favorite questions. The home page also displays how many answers each question has.
 
 ## Prerequisites
 
@@ -16,7 +15,7 @@ You will need the following things properly installed on your computer.
 ## Installation
 
 * `git clone <https://github.com/aftondowney/question-answer.git>`
-* change into the new directory
+*  change into the new directory
 * `npm install`
 * `bower install`
 * `ember install emberfire`
