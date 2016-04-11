@@ -1,9 +1,7 @@
 input, textarea {
   color: #040507;
 }
-span {
-  padding-right: 15px;
-}
+
 /*application*/
 body {
   background-color: #040507;
@@ -46,6 +44,9 @@ a:hover {
   border: 1px solid #DE151B;
   background-color: white;
 }
+.apple {
+  padding-right: 15px;
+}
 
 /*new-question*/
 .new-question {
@@ -56,6 +57,7 @@ a:hover {
 .question-save {
   background-color: #4A6DBF;
   color: #040507;
+  font-size: 15px;
 }
 
 /*index*/
@@ -76,6 +78,7 @@ a:hover {
   background-color: #DE151B;
   margin-bottom: 7px;
   margin-top: 7px;
+  padding-top: 3px;
 }
 .answer-number {
   font-size: 25px;
@@ -83,6 +86,10 @@ a:hover {
   padding-top: 20px;
   margin-bottom: 5px;
 }
+.apple-click {
+  font-size: 18px;
+}
+
 /*update-question*/
 .update {
   background-color:  #FFFF8F;
@@ -123,7 +130,8 @@ a:hover {
 }
 .answer-save {
   background-color: #6B7C20;
-  color: #040507;;
+  color: #040507;
+  font-size: 15px;
 }
 /*answer-tile*/
 answer-tile {
